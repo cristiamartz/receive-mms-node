@@ -5,17 +5,17 @@
     "install": "npm run lint && npm test",
     "lint": "node_modules/.bin/eslint ./",
     "start": "node index.js",
-    "test": "export NODE_ENV=test TWILIO_ACCOUNT_SID=Your-Account-SID TWILIO_AUTH_TOKEN=Your-Twilio-Auth-Token TWILIO_NUMBER=+1707XXXXXXX && node_modules/.bin/mocha test test/**/*.spec.js"
+    "test": "export NODE_ENV=test TWILIO_ACCOUNT_SID=Your-Account-SID TWILIO_AUTH_TOKEN=Your-Twilio-Auth-Token TWILIO_NUMBER=+14155238886 && node_modules/.bin/mocha test test/**/*.spec.js"
   },
   "description": "How to receive MMS messages with node.js",
   "author": {
-    "name": "José Oliveros",
-    "email": "jose.oliveros.1983@gmail.com",
+    "name": "s",
+    "email": "",
     "license": "MIT"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TwilioDevEd/receive-mms-node"
+    "url": "https://github.com/cristiamartz/receive-mms-node"
   },
   "keywords": [
     "node",
