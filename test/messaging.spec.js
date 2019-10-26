@@ -49,7 +49,7 @@ describe('appointment', () => {
         .send(incomingMMS)
         .expect(200)
         .expect('<?xml version="1.0" encoding="UTF-8"?><Response>' +
-                '<Message from="+14155238886" to="+14155238886">' +
+                '<Message from="+14155238886" to="+3173310654">' +
                 'Thanks for sending us 1 file(s)</Message></Response>');
     });
   });
